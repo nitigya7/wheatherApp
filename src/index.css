@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.bg_wrapper{
+  width: 100%;
+  max-width: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 80vh;
+  padding: 30px;
+}
+.main_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh-51px);
+}
+.weather_det {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+.nav_bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav_bar ul li {
+  background: bisque;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.nav_bar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: cursive;
+}
+.weather_wrapper p{
+    font-family: serif;
+    font-weight: 800;
+}
+.bg_wrap input {
+  border: 0px;
+  padding: 9px;
+  border-radius: 12px;
+}
+.bg_wrap input::placeholder{
+  color: #e26181;
+}
+.bg_wrap input:focus{
+  outline: none;
+}
+.bg_wrap button {
+  padding: 9px;
+  border-radius: 12px;
+  border: 0px;
+  margin-left: 10px;
+  font-size: 12px;
+  background: antiquewhite;
+}
+.nav_bar .active{
+  color: #e26181;
+}
